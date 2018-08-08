@@ -1,0 +1,7 @@
+﻿<CitySearch CommandQuery="Geography.CityQuery"  RequestType="MDRecFrm.aspx" RequestId="City" TargetScore="10">
+  <fields>
+    <field Name="NationId" GroupId="GeographyData" Filter=""/>
+    <field Name="StateProvinceId" GroupId="GeographyData" Filter=""/>
+    <field Name="ActiveFlg" GroupId="Active" IsReadOnly="False" DefaultValue=""/>
+  </fields>
+</CitySearch>
